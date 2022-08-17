@@ -1,0 +1,483 @@
+/*============================================================*/
+/*======================= Tablet 1024 px ~ =======================*/
+/*============================================================*/
+@media only screen and (max-width:1024px){
+.pc {display:none !important;}
+.tablet {display:block !important;}
+.mobile {display:none !important;}
+.tabmo {display:block !important;}
+img {max-width:100%;}
+img.pc_img {display:none;}
+img.tablet_img {display:block;}
+img.tabmo_img {display:block;}
+
+.inner {padding:0 4%;}
+
+/*header*/
+#header {height:75px;}
+.headerWrap {padding:0 4%;}
+.headerWrap .btn_menu {float:left; display:block; width:35px; padding-top:25px;}
+.headerWrap h1 {top:18px; left:50%; width:220px; margin-left:-110px;}
+.headerWrap h1 .logo_b {display:none;}
+.headerWrap h1 .logo_s {display:block;}
+.headerWrap .UtilWrap {padding-top:22px;}
+.headerWrap .UtilWrap .mem_profile {display:none;}
+.headerWrap .UtilWrap .SearchArea {display:none; position:absolute; top:0; left:0; width:100%; height:76px; border-bottom:none; z-index:50;;border:0px}
+.headerWrap .UtilWrap .SearchArea input.text {height:76px; padding-left:40px; padding-right:180px; font-size:18px; line-height:76px; border-bottom:1px solid #e5e5e5; background:white}
+.headerWrap .UtilWrap .SearchArea input.text::placeholder {color:#666; opacity:1;}
+.headerWrap .UtilWrap .SearchArea input.text::-moz-placeholder { /* Firefox 19+ */ color:#666; opacity:1;}
+.headerWrap .UtilWrap .SearchArea input.text:-moz-placeholder { /* Firefox 4 - 18 */ color:#666; opacity:1;}
+.headerWrap .UtilWrap .SearchArea input.text::-webkit-input-placeholder { /* Chrome, Safari, Opera */ color:#666; opacity:1;}
+.headerWrap .UtilWrap .SearchArea input.text::-ms-input-placeholder { /* Edge */ color:#666; opacity:1;}
+.headerWrap .UtilWrap .SearchArea input.text:-ms-input-placeholder { /* Edge */ color:#666; opacity:1;}
+.headerWrap .UtilWrap .SearchArea .btn_search {width:76px; height:76px; right:90px; background-image:url('../images//common/btn/btn_search_m.png'); background-size:35%;}
+.headerWrap .UtilWrap .SearchArea .btn_search_close {display:block; position:absolute; top:0; right:0; width:76px; height:76px; background:#d5a74c url('../images//common/btn/btn_close02.png') no-repeat center center; background-size:30%; font-size:0; line-height:0; text-indent:-9999px; z-index:10;}
+.headerWrap .UtilWrap .top_util img {height:30px; vertical-align:top;}
+.currentScore_mob {display:block; text-align:right; padding-right:3%; padding-bottom:2%; color:#d5a74c; font-weight:600; font-size:15px; background:#fbf1dd} 
+
+/* AllMenu */
+#Menu {width:50%; max-width:450px; left:-50%; border-right:none; z-index:1000; top:0; height:100%; border-right:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5}
+
+#Menu .menu_util {display:block;}
+#Menu .menu_util ul {overflow:hidden;}
+#Menu .menu_util ul li {float:left; width:100%; border-left:1px solid #dfdfdf; font-weight:600; text-align:center; box-sizing:border-box; line-height:75px; background:#fbf1dd; color:#d5a74c}
+#Menu .menu_util ul li:first-child {border-left:none;}
+#Menu .menu_util ul li img {height:22px; margin-right:5px; margin-top:-2px; vertical-align:middle;}
+#Menu .menu_util ul li a {color:#00226E; font-size:17px}
+
+#Menu .mem_profile {display:block; padding:25px 10px; text-align:center; font-weight:600; color:#00226E;background:#fbf1dd; font-size:17px}
+#Menu .mem_profile p {padding-top:5px;}
+#Menu .mem_profile p br {display:none;}
+#Menu .mem_profile p:first-child {padding-top:0;}
+
+#Menu .menuWrap {padding-top:0;}
+#Menu .menuWrap > ul {border-top:1px solid #dfdfdf;}
+#Menu .menuWrap > ul > li { line-height:60px;}
+#Menu .menuWrap ul li a {margin:0 35px;}
+#Menu .menuWrap .submenu {padding:10px 0; background:#f7f7f7;}
+#Menu .menuWrap .submenu li {font-size:14px; line-height:40px;}
+
+#Menu .btn_menu_close {position:absolute; top:0; right:-75px; width:75px; height:75px; background:#d5a74c url('../images//common/btn/btn_close02.png') no-repeat center center; background-size:30%; font-size:0; line-height:0; text-indent:-9999px;}
+#Menu .btn_logout {display:block; padding:20px 35px;}
+#Menu .btn_logout a {display:block; width:100%; text-align:center; border:1px solid #aaa; font-size:14px; text-align:center; border-radius:2px; line-height:40px; box-sizing:border-box;  transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease;}
+#Menu .btn_logout a:hover {background:#666; border:1px solid #666;}
+#Menu .btn_logout a:hover {color:#fff;}
+
+#Menu .menu_contact {margin:5% 9%}
+#Menu .menu_contact dt {font-size:1.7vw}
+#Menu .menu_contact dd {font-size:1.5vw}
+#Menu .menu_contact dd span {font-size:2vw; padding:1.5% 0 }
+
+/*메인비주얼 블릿*/
+#mainVisual .bx-pager {bottom:15px;}
+#mainVisual .bx-pager-item .bx-pager-link {width:8px; height:8px; margin:0 8px;}
+
+/*main contents*/
+.mainvisualCon .main_banner ul li img {height:23.4vw;}
+
+.mainConWrap h2 {padding-bottom:25px; font-size:23px;}
+.mainConWrap .mainProducts {padding-bottom:8vw;}
+.mainConWrap .section {padding-top:4.5vw;}
+.mainConWrap #shop.thumb .swiper-button {top:8.5vw; width:2vw; height:4vw; margin-top:0;}
+.mainConWrap #shop.thumb .swiper-button.swiper-button-prev {left:-3.5%; background-size:100%;}
+.mainConWrap #shop.thumb .swiper-button.swiper-button-next {right:-3.5%; background-size:100%;}
+
+.mainConWrap .mainCommunity >div {padding:20px}
+.mainConWrap .mainCommunity .mainNotice .noticeList {padding-left:0px}
+.mainConWrap .mainCommunity .mainContact .qnaContents #contemail::before { width:100%; height:2px; margin:15px 0}
+.mainConWrap .mainCommunity .mainContact .qnaContents .contactCon2 {width:100%}
+.mainConWrap .mainCommunity .mainContact .qnaContents .contactTit {font-size:13px;}
+.mainConWrap .mainCommunity .mainContact .qnaContents .contactCon2 #contactPhone {font-size:3.2vw}
+.mainConWrap .mainCommunity .mainContact .qnaContents .contactCon2 #contactEmail {font-size:2.3vw}
+/* 검색영역 */
+.prdSearchArea {padding:30px 4%;}
+.prdSearchArea > select, 
+.prdSearchArea > input, 
+.prdSearchArea .dateWrap {margin-left:1%;}
+.prdSearchArea select.category {width:19%;}
+.prdSearchArea select {padding-left:10px;}
+.prdSearchArea input.text,
+.prdSearchArea .select_facility .selectType01 {padding-left:14px;}
+.prdSearchArea .select_facility,
+.prdSearchArea .btn_search, 
+/*.prdSearchArea .btn_map {margin-top:10px;}
+.prdSearchArea .dateWrap .ui-datepicker-trigger {padding:18px 15px;}*/
+.prdSearchArea .checkArea {top:181px;}
+.prdSearchArea .checkArea dl dt {float:none; width:100%; padding-bottom:5px;}
+.prdSearchArea .checkArea dl dd {float:none; width:100%;}
+
+/* SelectStyle */
+.selectType01 {background-position:calc(100% - 10px) center;}
+
+/* ListStyle */
+.ListType01 li {line-height:22px;}
+.ListType02,
+.ListType03 {margin-bottom:8%;}
+.ListType02 li span,
+.ListType03 li span {font-size:15px; line-height:34px;}
+.ListType03 li:hover span:before {background-size:35px;}
+
+/* TableStyle */
+.TableType01 .category-check-box {padding:15px;}
+.TableType01 .category-check-box label,
+.TableType01 .category-check-box strong {font-size:17px;}
+.TableType01 .table-list {padding:15px;}
+.TableType01 .table-list .prdBox .prd_info {padding-top:12px;}
+.TableType01 .table-list .prdBox .prd_info dl {padding-top:12px; line-height:22px;}
+.TableType01 .table-list .prdBox .prd_info dl:first-child {padding-top:0;}
+.TableType01 .table-list .btn_delete01 {top:15px; right:15px;}
+.TableType01 .table-list .priceWrap .point {font-size:17px; font-weight:500;}
+.TableType01 .table-list .nodata {padding:130px 0;}
+
+#TablePrivacy th {width:150px; }
+/*#TablePrivacy th, #TablePrivacy td {padding:20px}*/
+
+.TableType03 thead th,
+.TableType03 tbody td,
+.TableType03 tfoot td,
+.TableType04 thead th,
+.TableType04 tbody td {padding:13px 0; line-height:22px;}
+.TableType04 tbody td {font-size:14px;}
+
+/* LayerStyle */
+.LayerType01 {top:50%; left:10%; width:80%; height:600px; margin-left:0; margin-top:-300px;}
+.LayerType01 .LayerTitleArea {padding:0 25px; line-height:56px;}
+.LayerType01 .LayerTitleArea strong {font-size:19px;}
+.LayerType01 .LayerTitleArea .btn_close {right:25px;}
+.LayerType01 .LayerContents {height:calc(100% - 80px); padding:25px;}
+.LayerType01 .LayerContents p {padding-top:20px; line-height:22px;}
+
+/* 제품 리스트 갤러리형 */
+#shop.thumb ul {margin-top:-40px;}
+#shop.thumb li {margin-top:40px;}
+#shop.thumb li .prd_thumb {height:23vw}
+#shop.thumb li .prd_thumb:after {background-size:23%;}
+#shop.thumb .main_area .prd_thumb:after {background-size:28%;}
+#shop .prd_info .prd_name {padding-top:6px; /* font-size:15px; */}
+
+/* pagearea */
+.PageArea {margin-top:5%;}
+.PageArea a {width:42px; height:42px; font-size:13px; line-height:42px;}
+
+#shop .PageArea {margin-top:8%;}
+
+/* 제품 상세 */
+#shop.view .ProductView {padding-bottom:3vw}
+#shop.view .ProductView .prdthumbArea {float:none; width:100%;}
+#shop.view .ProductView .prdthumbArea .prdthumbWrap {width:100%;}
+#shop.view .ProductView .prdthumbArea .gallery-thumbs .prd_thumb_button {width:4.8vw;}
+#shop.view .ProductView .prdthumbArea .gallery-thumbs .prd_thumb_button.prd-button-prev {background-image:url('../images//common/btn/prd_thumb_prev_m.png');}
+#shop.view .ProductView .prdthumbArea .gallery-thumbs .prd_thumb_button.prd-button-next {background-image:url('../images//common/btn/prd_thumb_next_m.png');}
+
+#shop.view .ProductView .PrdInfo {float:none; width:100%; padding:4% 0 0 0;}
+#shop.view .ProductView .PrdInfo .PrdInfoCon {padding-bottom:3%;}
+#shop.view .ProductView .PrdInfo .itemIcon .icon_area02 {height:30px; padding:0 6px; font-size:17px; line-height:30px;}
+#shop.view .ProductView .PrdInfo .prdDeatilTxt {padding-top:2%;}
+#shop.view .ProductView .PrdInfo .prdSubject {padding-top:0.5%; font-size:24px;}
+#shop.view .ProductView .PrdInfo .priceWrap .price {font-size:24px;}
+#shop.view .ProductView .PrdInfo .priceWrap {padding-top:1%;}
+#shop.view .ProductView .PrdInfo .InfoSection {padding:3% 0 0;}
+#shop.view .ProductView .PrdInfo .InfoSection table tbody th,
+#shop.view .ProductView .PrdInfo .InfoSection table tbody td {padding-top:2%;}
+#shop.view .ProductView .PrdInfo .InfoSection table tbody th {width:100px;}
+
+#shop.view .ReservationTable {margin-top:8%;}
+#shop.view .ReservationTable .res_detail .preview_wrap {width:300px; margin-left:-150px;}
+#shop.view .ReservationTable .res_detail .room-preview-thumbs .slick-slide {padding:3px;}
+#shop.view .ReservationTable .res_detail .room-preview-thumbs li {height:38px;}
+#shop.view .ReservationTable .res_detail .preview_wrap .slick-arrow {width:8px; height:18px; margin-top:-9px;}
+#shop.view .ReservationTable .res_detail .preview_wrap .slick-arrow.slick-prev {left:-18px;}
+#shop.view .ReservationTable .res_detail .preview_wrap .slick-arrow.slick-next {right:-18px;}
+#shop.view .ReservationTable .res_detail .calendar_table tbody td {line-height:7vw;}
+#shop.view .ReservationTable .tbl_res > tbody > tr > td.res_booking_wrap {padding:4%;}
+#shop.view .BookDetail .PrdQuick {margin-bottom:4%;}
+
+#shop.view .ReservationTable .res_detail .calendar_table tbody td a {height:auto}
+
+.prdBtnBox {position:fixed; width:100%; left:0; bottom:0; margin-top:0; padding:2%; background:#eee; box-sizing:border-box; z-index:100;}
+.prdBtnBox p {float:left; width:49.5%; font-size:17px; color:#222; line-height:55px;}
+.prdBtnBox p strong {color:#e00000;}
+
+#shop.view .BookDetail .prdsection {margin-top:8%;}
+#shop.view .BookDetail .PrdQuick ul li {line-height:50px;}
+#shop.view .BookDetail .prdsection .DetailBox {line-height:22px;}
+
+/*sub contents*/
+#contents {padding-left:0;}
+.contentsWrap {padding:5% 4%;}
+.TitleArea {margin-bottom:3%;}
+.TitleArea h3 {font-size:26px;}
+.TitleArea02 h4 {font-size:22px;}
+.TitleArea02 .selectType01 {width:110px;}
+.TitleArea .info {display:block; width:100%; padding-left:0; padding-top:10px;}
+
+.section_TitleArea {margin-bottom:10px;}
+.section_TitleArea h4 {font-size:22px;}
+
+/* 서브메뉴 */
+#SNB {margin-bottom:5%;}
+#SNB ul li {height:45px; line-height:45px;}
+
+/* 장바구니 */
+.OrderStep ul li {letter-spacing:0;}
+
+#order .payment_info_box table thead th {padding:15px; font-size:17px;}
+#order .payment_info_box table tbody tr:first-child th, 
+#order .payment_info_box table tbody tr:first-child td,
+#order .payment_info_box table tbody tr td.pdt {padding-top:12px;}
+#order .payment_info_box table tbody tr:last-child th, 
+#order .payment_info_box table tbody tr:last-child td,
+#order .payment_info_box table tbody td.point_info {padding-bottom:12px;}
+#order .payment_info_box table tbody td {padding:0 15px; line-height:30px;}
+#order .payment_info_box table tfoot th, 
+#order .payment_info_box table tfoot td {padding:18px 15px;}
+#order .payment_info_box table tfoot th {font-size:17px;}
+#order .payment_info_box table tfoot td {font-size:23px;}
+#order .payment_info_box .payment-btnarea a, 
+#order .payment_info_box .payment-btnarea input {height:55px; font-size:17px; line-height:53px;}
+#order .prdBtnBox.on {display:block;}
+#order #checkinBox table td {line-height:30px}
+/* 주문/결제 */
+.TableType02_wrap {padding:20px;}
+.TableType02 tbody th {width:100px;}
+.TableType02.view tbody th {width:140px;}
+.TableType02 tbody td .NumArea #NumAreaNotice {display:block; }
+
+.AddressList li label {padding:15px;}
+.AddressList li .AddressArea {width:90%; padding-left:6px;}
+.AddressList li .AddressArea strong {padding-bottom:6px; font-size:15px;}
+
+#order.payment .agree_con {padding:15px; font-size:14px; line-height:22px;}
+#order.payment .agree_check_area {padding-top:10px;}
+#order.payment .agree_check_area label {padding-left:15px;}
+
+/* 주문완료 / 주문실패 */
+#order .TableType02_wrap.bg {background-size:500px;}
+.InfoBox_01 {padding:65px 20px;}
+.InfoBox_01 p {font-size:17px; line-height:22px;}
+.InfoBox_01 p.complete_txt,
+.InfoBox_01 p.fail_txt {padding-top:80px; background-size:60px;}
+
+/* 예약내역 */
+.order_table_wrap .table_header ul li {line-height:50px;}
+.my_order_state .order_state_box .prdWrap .prdBox {font-size:14px;}
+.my_order_state .order_state_box .prdWrap .prdBox .prdCon {padding-right:0;}
+.my_order_state .order_state_box .nodata {line-height:350px;}
+
+/* 예약내역 - 상세보기 */
+#order .orderInfo .prd_order_num {padding:0 15px; line-height:55px;}
+#order .orderInfo .prd_order_num p {font-size:17px;}
+
+.TableType01 .table-list .order_state {top:25px; width:110px;}
+.TableType01 .table-list .order_state strong {font-size:14px;}
+.TableType01 .table-list .order_state .c_date {font-size:13px;}
+
+/* 내 포인트현황 */
+#Member.mypoint .point_box {width:98%; margin-left:2%;}
+#Member.mypoint .total_point {padding:15px;}
+#Member.mypoint .total_point dl {line-height:30px;}
+#Member.mypoint .total_point dl dt {width:140px;}
+#Member.mypoint .total_point dl dd {width:calc(100% - 140px);}
+#Member.mypoint .total_point .usable {padding-bottom:15px; margin-bottom:15px;}
+#Member.mypoint .TableType03 thead th.date {width:150px;}
+#Member.mypoint .TableType04 thead th.date,
+#Member.mypoint .TableType04 thead th.point {min-width:150px;}
+
+/* 검색결과 */
+#search .result_txt {font-size:28px;}
+#search .prd_list_section {margin-top:50px;}
+
+.btn_more a {padding:1.3% 2.2%;  font-size:2.2vw; color:#000;}
+
+/* 이용약관/개인정보처리방침 */
+.policy .policy_box {padding:25px; line-height:22px;}
+
+.agreementbox {margin:10px auto 5px;}
+.agreementbox th,
+.agreementbox td {padding:6px 8px; font-size:13px;}
+.agreementbox tr th {width:18px;}
+.agreementbox.agreementbox02 tr th {width:35px;}
+
+/*foot*/
+#footer {padding:0px;}
+.footerWrap {padding:40px 4%;}
+.footerWrap > h2 {display:none;}
+.footerWrap .f_util ul {padding-bottom:15px;}
+.footerWrap .footCon {float:left; width:50%; padding-top:0; padding-left:0; line-height:22px;}
+.footerWrap .footCon h2 {float:none; display:block; width:180px; margin-bottom:15px;}
+.footerWrap .btn_top {top:40px; margin-top:0;}
+
+
+
+#membership .mbship_thumb {overflow:hidden}
+#membership .mbship_txt {width:50%; }
+
+}
+
+
+
+
+/*===============================================================*/
+/*======================= Tablet 850 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:850px){
+
+/* 멤버십 서비스 목록 */
+
+
+#membership .mbship_txt {width:50%; }
+
+}
+
+/*===============================================================*/
+/*======================= Tablet 768 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:768px){
+
+/* ListStyle */
+.ListType02 li span,
+.ListType03 li span {font-size:14px; line-height:32px;}
+.ListType03 li:hover span {margin-bottom:-40px;}
+.ListType03 li:hover span:before {height:38px; background-size:32px;}
+
+/*contents*/
+.TitleArea {margin-bottom:2%;}
+.TitleArea h3 {font-size:24px;}
+.TitleArea .info {padding-top:8px;}
+.section_TitleArea h4 {font-size:20px;}
+
+/* 검색영역 */
+.prdSearchArea select, 
+.prdSearchArea input.text, 
+.prdSearchArea .select_facility .selectType01 {font-size:15px;}
+.prdSearchArea select.category {width:21%;}
+.prdSearchArea select.area {width:21%;}
+.prdSearchArea select.num {width:21%;}
+.prdSearchArea .dateWrap {width:18%; margin-right:1%;}
+.prdSearchArea .dateWrap.ch_in {margin-left:1%;}
+.prdSearchArea .select_facility {width:38%; margin-right:1%; margin-left:1%;}
+.prdSearchArea .btn_search {margin-left:0;} 
+.prdSearchArea .btn_search,
+.prdSearchArea .btn_map {width:15%; margin-right:5px;}
+.prdSearchArea .checkArea {top:236px;}
+.prdSearchArea .checkArea dl dd label {width:33.33333333333333%;}
+.prdSearchArea #searchTitle {margin-right:10px; font-size:15px}
+
+
+/* 제품 상세 */
+#shop.view .ProductView .PrdInfo .itemIcon .icon_area02 {font-size:13px;}
+#shop.view .ProductView .PrdInfo .prdSubject {padding-top:1%; font-size:22px;}
+#shop.view .ProductView .PrdInfo .priceWrap .price {font-size:22px;}
+
+#shop.view .ReservationTable .tbl_res {margin:-20px 0; border-top:none; border-collapse: separate; border-spacing: 0 6px;}
+#shop.view .ReservationTable .tbl_res > thead {display:none;}
+#shop.view .ReservationTable .tbl_res > tbody > tr > td {float:left; width:100%; padding:15px; border-left:1px solid #eee; border-right:1px solid #eee; font-size:14px; text-align:left; box-sizing:border-box;}
+/*#shop.view .ReservationTable .tbl_res > tbody > tr > td:first-child {border-top:1px solid #000;}*/
+#shop.view .ReservationTable .tbl_res > tbody > tr > td > em {display:inline-block; width:130px; font-weight:600; color:#222; vertical-align:middle;}
+#shop.view .ReservationTable .tbl_res > tbody > tr > td > p,
+#shop.view .ReservationTable .tbl_res > tbody > tr > td > .fee {display:inline-block; width:calc(100% - 135px); vertical-align:middle;}
+#shop.view .ReservationTable .tbl_res > tbody > tr > td .fee li {display:block; padding:0;}
+#shop.view .ReservationTable .tbl_res > tbody > tr > td.res_booking_wrap {margin-top:-10px; margin-bottom:10px; background:#f3f3f7; border-top:none; padding:15px; border-spacing: 0;}
+
+#shop.view .ReservationTable .res_detail .TableType01 {margin-top:15px;}
+#shop.view .ReservationTable .res_detail .calendar .Date b {font-size:22px;}
+#shop.view .ReservationTable .res_detail .calendar .Date a.month_prev {text-indent:-2px;}
+#shop.view .ReservationTable .res_detail .calendar .Date a.month_next {text-indent:2px;}
+#shop.view .ReservationTable .res_detail .add_mem_info ul li {font-size:15px;}
+
+#shop.view .ReservationTable .payment_info_box {margin-top:15px;}
+#shop.view .ReservationTable .payment_info_box table tbody th {font-size:14px;}
+#shop.view .ReservationTable .payment_info_box table tbody td {font-size:14px;}
+#order .payment_info_box .payment-btnarea p {padding:5px 0 15px;}
+
+/* 장바구니 */
+.OrderStep {display:none;}
+
+.TableType01 .category-check-box label,
+.TableType01 .category-check-box strong {font-size:16px;}
+
+#order .payment_info_box table thead th,
+#order .payment_info_box table tfoot th {font-size:16px;}
+#order .payment_info_box table tbody td ul li {padding-top:12px; font-size:13px; line-height:18px;}
+#order .payment_info_box table tbody td #point_info_notice {font-size:1.75vw}
+/* 주문완료 / 주문실패 */
+#order .TableType02_wrap.bg {background-size:400px;}
+.precautions ul li {padding-left:22px; background-position:0 5px; background-size:14px;}
+
+.InfoBox_01 {padding:60px 20px;}
+.InfoBox_01 p {font-size:16px; line-height:20px;}
+.InfoBox_01 p.complete_txt,
+.InfoBox_01 p.fail_txt {padding-top:75px; background-size:55px;}
+
+/* 예약내역 */
+.order_table_wrap .table_header {display:none;}
+.my_order_state .order_state_box .nodata {line-height:300px;}
+.my_order_state .order_state_box .prdWrap {display:block; width:100%;}
+.my_order_state .order_state_box .prdWrap .prdBox {display:block; padding:10px; box-sizing:border-box;position: relative;}
+.my_order_state .order_state_box .prdWrap .prdBox .prdCon {display:block; padding-left:0;}
+.my_order_state .order_state_box .prdWrap .prdBox .prd_info {padding-left:20px;}
+.my_order_state .order_state_box .prdWrap .order_state {display:block; width:15%; padding-top:5px; box-sizing:border-box; /*overflow:hidden;*/position:absolute;bottom:10px; right:10px}
+/*.my_order_state .order_state_box .prdWrap .order_state strong {float:right; display:block;padding:10% 0; line-height:30px;width:100%}*/
+.my_order_state .order_state_box .prdWrap .btn_state_area {float:left;}
+.my_order_state .order_state_box .prdWrap .order_state a, 
+.my_order_state .order_state_box .prdWrap .order_state input {margin:0;}
+
+/* 예약내역 - 상세보기 */
+#Member .TableType01 .table-list .prdBox {padding-right:0;}
+.TableType01 .table-list .order_state {position:inherit; top:0; display:block; width:100%; padding-top:5px; box-sizing:border-box; overflow:hidden;}
+.TableType01 .table-list .order_state strong {float:right; padding-bottom:0; padding-right:5px; line-height:30px;}
+.TableType01 .table-list .order_state .btn_state_area {float:left;}
+.TableType01 .table-list .order_state a, 
+.TableType01 .table-list .order_state input {margin:0;}
+.TableType01 .table-list .order_state .c_date {display:none;}
+
+.TableType02 tbody td .NumArea #NumAreaNotice {margin-top:1%; font-size:1.77vw } 
+
+/* 내 정보 */
+#Member.meminfo .TableType02 tbody th {width:120px;}
+
+/* 내 포인트현황 */
+#Member.mypoint .point_box {float:none; width:100%; margin-left:0; margin-top:45px;}
+#Member.mypoint .point_box:first-child {margin-top:0;}
+
+#membership .mbship_thumb {overflow:hidden}
+#membership .mbship_txt {width:50%; }
+
+#Menu .menu_contact {margin:5% 10%}
+#Menu .menu_contact dt {font-size:2.3vw}
+#Menu .menu_contact dd {font-size:2.2vw}
+#Menu .menu_contact dd span {font-size:3.1vw; padding-top:1.5%}
+
+}
+
+/*===============================================================*/
+/*======================= Tablet 640 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:640px){
+
+/* 제품 리스트 웹진형 */
+#shop.list table td {display:block; width:100%;}
+#shop.list table td .prd_thumb {width:25%;}
+
+/* 주문/결제 */
+.TableType02 tbody td input.text {width:100%;}
+.TableType02 tbody td .NumArea select.phone, 
+.TableType02 tbody td .NumArea input.phone {width:30%;}
+
+.TableType02 tbody td .NumArea .hyp {width:5%;}
+.TableType02 tbody td .EmailArea input.text {width:47%;}
+.TableType02 tbody td .EmailArea .at {width:6%;}
+.TableType02 tbody td .EmailArea select {width:100%;}
+.TableType02 tbody td input.mem_post {width:25%;}
+.TableType02 tbody td input.btn_address {width:20%; margin:0 1%; padding:0;}
+.TableType02 tbody td input.mem_add1 {display:inline-block; width:53%; margin-top:0;}
+
+/*foot*/
+.footerWrap {padding:40px 4%;}
+.footerWrap .f_util ul {padding-bottom:4%;}
+.footerWrap .footCon h2 {margin-bottom:4%;}
+
+#membership .mbship_thumb {overflow:hidden; width:230px; height:180px;}
+#membership .mbship_txt {width:45%; }
+
+}

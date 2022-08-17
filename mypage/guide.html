@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="subject" content="신한은행 연성소" />
+	<meta name="title" content="신한은행 연성소" />
+	<meta name="author" content="신한은행 연성소" />
+	<meta name="publisher" content="(주)지마이다스, G-midas" />
+	<meta name="description" content="신한은행 연성소" />
+	<meta name="location" content="" />
+	<title>신한은행 연성소</title>
+	<!-- 오픈그래프 -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="신한은행 연성소">
+	<meta property="og:description" content="신한은행 연성소">
+	<meta property="og:image" content="images/common/kakao.jpg">
+	<link rel="shortcut icon" href="">
+	<link type="text/css" href="/css/basic.css" rel="stylesheet" />
+	<link type="text/css" href="/css/layout.css" rel="stylesheet" />
+	<link href="/css/media_tablet.css" type="text/css" media="screen and (max-width:1024px)" rel="stylesheet" />
+	<link href="/css/media_mobile.css" type="text/css" media="screen and (max-width:520px)" rel="stylesheet" />
+	<link rel="stylesheet" href="/css/swiper.css">
+	<link type="text/css" href="/css/slick.css" rel="stylesheet" />
+	<link type="text/css" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" rel="stylesheet" />
+	<!-- calendar -->
+	<script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/js/swiper.min.js"></script>
+	<script type="text/javascript" src="/js/slick.min.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+	<!-- 추가 : 김연아 -->
+	<script src="https://kit.fontawesome.com/33f6ca1ff9.js"></script>
+
+	<!-- 추가 : 김연아 -->
+	<script src="https://kit.fontawesome.com/33f6ca1ff9.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="overlay"></div>
+		<div class="overlay02"></div>
+		<div class="overlay03"></div>
+		<script>
+			$(document).ready(function () {
+
+				$('.main_nav li').click(function () {
+					$(this).children('.sub_nav').slideToggle();
+				})
+
+			});
+
+		</script>
+		<div id="header">
+			<div class="headerWrap">
+				<a href="javascript:void(0);" class="btn_menu">
+					<img src="/images/common/btn/btn_menu_gold.png" alt="메뉴열기" />
+				</a>
+				<h1 class="logo">
+					<a href="index.html"><img src="/images/common/logo.png" alt="신한은행 연성소" class="logo_b" />
+						<img src="/images/common/logo.png" alt="신한은행 연성소" class="logo_s" />
+					</a>
+				</h1>
+				<div class="UtilWrap">
+					
+					<!-- 검색영역 pc -->
+					<div class="SearchArea pc">
+						<input type="text" class="text search1" id="" name="" value="" placeholder="지역 또는 숙박명을 검색해 보세요. ">
+						<input type="button" class="button btn_search" id="topSerBtn" name="topSerBtn" value="검색"  />
+						<a href="javascript:ViewSearchClose();" class="btn_search_close">닫기</a>
+					</div>
+					<!-- 검색영역 tablet, mobile -->
+					<div class="SearchArea tabmob">
+						<input type="text" class="text" id="" name="" value="" placeholder="지역 또는 숙박명을 검색해 보세요." />
+						<input type="button" class="button btn_search" id="topSerBtn" name="topSerBtn" value="검색"  />
+						<a href="javascript:ViewSearchClose();" class="btn_search_close">닫기</a>
+					</div>
+					<div class="mem_profile">
+						<p>홍길동님 환영합니다.</p>
+							<p><a href="/mypage/point/view">나의 점수 : <span class="orange">99</span>점</a></p>
+							<p>2020년 신청가능박수 : <span class="orange">5</span>박</p>
+							<p>2021년 신청가능박수 : <span class="orange">4</span>박</p>
+					</div>
+				<div class="top_util">
+					<ul class="pc">
+				
+						<li class="myinfo"><a href="/mypage/myorder_detail.html">예약내역</a></li>
+					</ul>
+					<ul class="tabmo">
+						<li><a href="#"><img src="images/common/btn/btn_search_mg.png" alt="" /></a></li>
+		
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="currentScore_mob">
+			현재 보유점수 : <span class="orange">95점</span> &nbsp;|&nbsp; 2020년 보유박수 : <span class="orange">3박</span>&nbsp;|&nbsp; 2021년 보유박수 : <span class="orange">4박</span>
+		</div>
+
+		<div class="prdSearchArea">
+			<select name="" id="" class="category selectType01">
+				<option value="">숙박유형</option>
+				<option value="">숙박유형1</option>
+				<option value="">숙박유형2</option>
+				<option value="">숙박유형3</option>
+				<option value="">숙박유형4</option>
+				<option value="">숙박유형5</option>
+			</select>
+			<select name="" id="" class="area selectType01">
+				<option value="">지역</option>
+				<option value="">서울</option>
+				<option value="">경기도</option>
+				<option value="">강원도</option>
+				<option value="">충청도</option>
+				<option value="">충청북도</option>
+			</select>
+			<div class="dateWrap ch_in">
+				<input type="text" class="text" id="checkin" name="checkin" value="" placeholder="체크인" readonly />
+				<img class="ui-datepicker-trigger" src="images/common/icon/icon_calendar.png" alt="날짜선택" title="날짜선택" />
+			</div>
+			<input type="button" class="button btn_search" id="" name="" value="검색" />
+			<div class="searchTip blue"><i class="far fa-lightbulb"></i> Tip
+				<ul>
+					<li> 유형별/지역별/날짜별 한가지만 입력해도 검색 가능합니다.</li>
+					<!--<li>2. 예약 가능시간 : 매일 AM 08:00 ~ PM 21:00</li>-->
+				</ul>
+			</div>
+		</div>
+
+		<div id="Menu">
+				<div class="mem_profile">
+					<p><span class="blue">관리자(master123)</span>님 <br />환영합니다.</p>
+					<!--<p>POINT : <span class="red">1,000,000</span>P</p>-->
+				</div>
+			<div class="menu_util">
+				<ul>
+					<li><a href="#"><img src="images/common/icon/icon_mem3.png" alt="" /> 예약내역</a></li>
+					<!--<li><a href="#"><img src="images/common/icon/icon_logout_m.png" alt="" /> 로그아웃</a></li>-->
+				</ul>
+			</div>
+		
+				<div class="menuWrap">
+					<ul class="main_nav">
+						<li><a href="index.html">HOME</a></li>
+						<div class="menu_line"></div>
+						<li><a href="#">마이페이지</a></li>
+						<div class="menu_line"></div>
+						<li><a href="/mypage/guide.html">이용안내/규정</a></li>
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">FAQ</a></li>
+						<div class="menu_line"></div>
+					</ul>
+				</div>
+				<dl class="menu_contact">
+					<dt>연성소 문의</dt>
+					<dd><span>신한은행 직원행복센터<br> 연성소 담당자</span></dd>
+					<!--2020.10.22	<dt>전화문의</dt>
+								<dd><span>02-2151-5038</span>
+									평일 09시~18시<br> (토,일,공휴일 제외)</dd>-->
+					<!--<dt>E-Mail 문의</dt>
+								<dd><span id="contactEmail">kiimssii@shinhan.com</span></dd>-->
+					<dt>예약가능시간</dt>
+					<dd><span>매일 08시 ~ 21시</span></dd>
+				</dl>
+				<a href="#" class="btn_menu_close">닫기</a>
+		</div>
+		<div id="container">
+			<div id="contents">
+				<script type="text/javascript" src="../js/main.js"></script>
+				<div class="mainConWrap">
+
+					<script type="text/javascript" src="../js/jquery-ui.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							$("#checkin, #checkout").datepicker({
+								changeMonth: true,
+								dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
+								dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+								changeYear: true,
+								showOn: 'both',
+								buttonImage: '/images/common/icon/icon_calendar.png',
+								buttonImageOnly: true,
+								nextText: '다음 달',
+								prevText: '이전 달',
+								monthNamesShort: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+								monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+								dateFormat: 'yy-mm-dd'
+							});
+
+
+							$('.prdSearchArea .select_facility .selectType01').click(function () {
+								if (!$(this).hasClass('on')) {
+									$(this).addClass('on');
+									$('.prdSearchArea .checkArea').slideDown(300);
+								} else {
+									$(this).removeClass('on');
+									$('.prdSearchArea .checkArea').slideUp(300);
+								}
+							})
+						});
+					</script>
+
+<!--헤더영역 끝-->
+
+
+
+
+<!--가이드 시작-->
+<style>
+	.btn_s_redLine {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background: #ff0000;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 23px;
+    vertical-align: top;
+}
+</style>
+
+
+<div class="contentsWrap">
+	<div id="SNB">
+		<ul>
+			<li><a href="/mypage/myreser_list.html">예약조회/취소</a></li>
+			<!--<li><a href="/mypage/benefit.html">혜택할인</a></li>-->
+			<li class="on"><a href="/mypage/guide.html">이용안내/규정</a></li>
+			<li><a href="/mypage/mypoint_list.html">보유점수</a></li>
+			<!--<li><a href="/mypage/notice_list.html">공지사항</a></li>
+			<li><a href="/mypage/faq.html">FAQ</a></li>-->
+		</ul>
+	</div>
+	<div id="Member" class="contentsArea">
+		<div class="TitleArea">
+			<h3>이용안내/규정</h3>
+		</div>
+		<div id="order" class="myorderdetail">
+			<div class="orderInfo">
+				<div class="section">                 
+                    <div class="TableType01">
+                        <div class="category-check-box">
+                            <strong>이용안내</strong>
+                        </div>
+                    </div>    
+					<div class="TableType02_wrap bg">    
+                        <table cellpadding="0" cellspacing="0" class="TableType02 view">
+							<tbody>
+								<tr>
+									<th>설명글1</th>
+									<td>설명글1</td>
+                                </tr>
+							</tbody>
+						</table>
+						<table cellpadding="0" cellspacing="0" class="TableType02 view">
+							<tbody>
+								<tr>
+									<th>설명글</th>
+									<td>설명글</td>
+								</tr>
+								<tr>
+									<th>설명글</th>
+									<td>설명글</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+                </div>
+                
+
+                <div class="section">                 
+                    <div class="TableType01">
+                        <div class="category-check-box">
+                            <strong>규정안내</strong>
+                        </div>
+                    </div>    
+					<div class="TableType02_wrap bg">    
+                        <table cellpadding="0" cellspacing="0" class="TableType02 view">
+							<tbody>
+								<tr>
+									<th>설명글</th>
+									<td>12345</td>
+                                </tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+            </div>
+		</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+<!--footer 시작-->
+<div id="footer">
+	<div class="footerWrap">
+		<div class="f_util">
+			<ul>
+				<li><a href="/policy/agreement.php">이용약관</a></li>
+				<li><a href="/policy/privacy.php">개인정보처리방침</a></li>
+			</ul>
+		</div>
+		<!--		<h2><img src="/images/common/logo_grey.png" alt="신한은행 연성소" /></h2>-->
+		<div class="footCon">
+			<h2><img src="/images/common/logo_grey.png" alt="신한은행 연성소" /></h2>
+			<address>
+				06026 서울특별시 중구 세종대로 9일 20(태평로 2가) 대표이사 진옥동<br />
+				사업자등록번호 : 202-81-02637
+			</address>
+			<p class="copy">COPYRIGHT(C) SHINHAN BANK. ALL RIGHTS RESERVED</p>
+		</div>
+
+		<!--	<h2><img src="/images/common/logo_bizmarket.png" alt="인터파크 비즈마켓" /></h2>-->
+		<div class="footCon">
+			<h2><img src="/images/common/logo_bizmarket.png" alt="인터파크비즈마켓" /></h2>
+			<address>
+				06026 서울특별시 강남구 도산대로 235 평화빌딩 5 대표이사 허탁<br />
+				사업자 등록번호 : 214-88-80576. E-Mail : bizmarket@interpark.com<br>개인정보 책임자 : 김보성
+			</address>
+			<p class="copy">COPYRIGHT(C) Interpark Bizmarket Co.,Ltd. ALL RIGHTS RESERVED<br>
+				본 신한은행 법인콘도 신청몰은 <strong>(주)인터파크비즈마켓</strong>이 운영대행하고 있습니다.
+			</p>
+		</div>
+		<a href="javascript:gotop();" class="btn_top">TOP</a>
+	</div>
+</div>
+<!-- footer -->

@@ -1,0 +1,555 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="subject" content="신한은행 연성소" />
+	<meta name="title" content="신한은행 연성소" />
+	<meta name="author" content="신한은행 연성소" />
+	<meta name="publisher" content="(주)지마이다스, G-midas" />
+	<meta name="description" content="신한은행 연성소" />
+	<meta name="location" content="" />
+	<title>신한은행 연성소</title>
+	<!-- 오픈그래프 -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="신한은행 연성소">
+	<meta property="og:description" content="신한은행 연성소">
+	<meta property="og:image" content="images/common/kakao.jpg">
+	<link rel="shortcut icon" href="">
+	<link type="text/css" href="css/basic.css" rel="stylesheet" />
+	<link type="text/css" href="css/layout.css" rel="stylesheet" />
+	<link href="css/media_tablet.css" type="text/css" media="screen and (max-width:1024px)" rel="stylesheet" />
+	<link href="css/media_mobile.css" type="text/css" media="screen and (max-width:520px)" rel="stylesheet" />
+	<link rel="stylesheet" href="css/swiper.css">
+	<link type="text/css" href="css/slick.css" rel="stylesheet" />
+	<link type="text/css" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" rel="stylesheet" />
+	<!-- calendar -->
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<!-- 추가 : 김연아 -->
+	<script src="https://kit.fontawesome.com/33f6ca1ff9.js"></script>
+
+	<!-- 추가 : 김연아 -->
+	<script src="https://kit.fontawesome.com/33f6ca1ff9.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="overlay"></div>
+		<div class="overlay02"></div>
+		<div class="overlay03"></div>
+		<script>
+			$(document).ready(function () {
+
+				$('.main_nav li').click(function () {
+					$(this).children('.sub_nav').slideToggle();
+				})
+
+			});
+
+		</script>
+		<div id="header">
+			<div class="headerWrap">
+				<a href="javascript:void(0);" class="btn_menu">
+					<img src="images/common/btn/btn_menu_gold.png" alt="메뉴열기" />
+				</a>
+				<h1 class="logo">
+					<a href="index.html"><img src="images/common/logo.png" alt="신한은행 연성소" class="logo_b" />
+						<img src="images/common/logo.png" alt="신한은행 연성소" class="logo_s" />
+					</a>
+				</h1>
+				<div class="UtilWrap">
+					
+					<!-- 검색영역 pc -->
+					<div class="SearchArea pc">
+						<input type="text" class="text search1" id="" name="" value="" placeholder="지역 또는 숙박명을 검색해 보세요. ">
+						<input type="button" class="button btn_search" id="topSerBtn" name="topSerBtn" value="검색"  />
+						<a href="javascript:ViewSearchClose();" class="btn_search_close">닫기</a>
+					</div>
+					<!-- 검색영역 tablet, mobile -->
+					<div class="SearchArea tabmob">
+						<input type="text" class="text" id="" name="" value="" placeholder="지역 또는 숙박명을 검색해 보세요." />
+						<input type="button" class="button btn_search" id="topSerBtn" name="topSerBtn" value="검색"  />
+						<a href="javascript:ViewSearchClose();" class="btn_search_close">닫기</a>
+					</div>
+					<div class="mem_profile">
+						<p>홍길동님 환영합니다.</p>
+							<p><a href="/mypage/point/view">나의 점수 : <span class="orange">99</span>점</a></p>
+							<p>2020년 신청가능박수 : <span class="orange">5</span>박</p>
+							<p>2021년 신청가능박수 : <span class="orange">4</span>박</p>
+					</div>
+				<div class="top_util">
+					<ul class="pc">
+				
+						<li class="myinfo"><a href="/mypage/myorder_detail.html">예약내역</a></li>
+					</ul>
+					<ul class="tabmo">
+						<li><a href="#"><img src="images/common/btn/btn_search_mg.png" alt="" /></a></li>
+		
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="currentScore_mob">
+			현재 보유점수 : <span class="orange">95점</span> &nbsp;|&nbsp; 2020년 보유박수 : <span class="orange">3박</span>&nbsp;|&nbsp; 2021년 보유박수 : <span class="orange">4박</span>
+		</div>
+
+		<div class="prdSearchArea">
+			<select name="" id="" class="category selectType01">
+				<option value="">숙박유형</option>
+				<option value="">숙박유형1</option>
+				<option value="">숙박유형2</option>
+				<option value="">숙박유형3</option>
+				<option value="">숙박유형4</option>
+				<option value="">숙박유형5</option>
+			</select>
+			<select name="" id="" class="area selectType01">
+				<option value="">지역</option>
+				<option value="">서울</option>
+				<option value="">경기도</option>
+				<option value="">강원도</option>
+				<option value="">충청도</option>
+				<option value="">충청북도</option>
+			</select>
+			<div class="dateWrap ch_in">
+				<input type="text" class="text" id="checkin" name="checkin" value="" placeholder="체크인" readonly />
+				<img class="ui-datepicker-trigger" src="images/common/icon/icon_calendar.png" alt="날짜선택" title="날짜선택" />
+			</div>
+			<input type="button" class="button btn_search" id="" name="" value="검색" />
+			<div class="searchTip blue"><i class="far fa-lightbulb"></i> Tip
+				<ul>
+					<li> 유형별/지역별/날짜별 한가지만 입력해도 검색 가능합니다.</li>
+					<!--<li>2. 예약 가능시간 : 매일 AM 08:00 ~ PM 21:00</li>-->
+				</ul>
+			</div>
+		</div>
+
+		<div id="Menu">
+				<div class="mem_profile">
+					<p><span class="blue">관리자(master123)</span>님 <br />환영합니다.</p>
+					<!--<p>POINT : <span class="red">1,000,000</span>P</p>-->
+				</div>
+			<div class="menu_util">
+				<ul>
+					<li><a href="#"><img src="images/common/icon/icon_mem3.png" alt="" /> 예약내역</a></li>
+					<!--<li><a href="#"><img src="images/common/icon/icon_logout_m.png" alt="" /> 로그아웃</a></li>-->
+				</ul>
+			</div>
+		
+				<div class="menuWrap">
+					<ul class="main_nav">
+						<li><a href="index.html">HOME</a></li>
+						<div class="menu_line"></div>
+						<li><a href="#">마이페이지</a></li>
+						<div class="menu_line"></div>
+						<li><a href="/mypage/guide.html">이용안내/규정</a></li>
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">FAQ</a></li>
+						<div class="menu_line"></div>
+					</ul>
+				</div>
+				<dl class="menu_contact">
+					<dt>연성소 문의</dt>
+					<dd><span>신한은행 직원행복센터<br> 연성소 담당자</span></dd>
+					<!--2020.10.22	<dt>전화문의</dt>
+								<dd><span>02-2151-5038</span>
+									평일 09시~18시<br> (토,일,공휴일 제외)</dd>-->
+					<!--<dt>E-Mail 문의</dt>
+								<dd><span id="contactEmail">kiimssii@shinhan.com</span></dd>-->
+					<dt>예약가능시간</dt>
+					<dd><span>매일 08시 ~ 21시</span></dd>
+				</dl>
+				<a href="#" class="btn_menu_close">닫기</a>
+		</div>
+
+			<div id="container">
+				<div id="contents">
+					<!--<script type="text/javascript" src="common/js/main.js"></script>-->
+					<script type="text/javascript">
+						$(function () {
+							$("#checkin, #checkout").datepicker({
+								changeMonth: true,
+								dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
+								dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+								changeYear: true,
+								showOn: 'both',
+								buttonImage: 'images/common/icon/icon_calendar.png',
+								buttonImageOnly: true,
+								nextText: '다음 달',
+								prevText: '이전 달',
+								monthNamesShort: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+								monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+								dateFormat: 'yy-mm-dd'
+							});
+
+
+							$('.prdSearchArea .select_facility .selectType01').click(function () {
+								if (!$(this).hasClass('on')) {
+									$(this).addClass('on');
+									$('.prdSearchArea .checkArea').slideDown(300);
+								} else {
+									$(this).removeClass('on');
+									$('.prdSearchArea .checkArea').slideUp(300);
+								}
+							})
+						});
+					</script>
+
+<div class="contentsWrap">
+	<div class="contentsArea">
+	<!--	<div class="TitleArea">
+			<h3>숙박권</h3>
+		</div>-->
+		<div id="shop" class="view">
+			<!-- 제품 썸네일, 정보 -->
+			<div class="ProductView">
+				<!-- 상품 썸네일 -->
+				<div class="prdthumbArea">
+					<div class="prdthumbWrap swiper-container gallery-top">
+						<ul class="prdthumb swiper-wrapper">
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							
+						</ul>
+					</div>
+					<!-- 미리보기 썸네일 -->
+					<div class="swiper-container gallery-thumbs">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+							<li class="swiper-slide"><img src="images/product/produict_b_01.jpg" alt="" /></li>
+						</ul>
+						<!-- Add Arrows -->
+						<div class="prd_thumb_button prd-button-prev"></div>
+						<div class="prd_thumb_button prd-button-next"></div>
+					</div>
+				</div>
+				<!-- 상품 썸네일 END -->
+				<!-- 상품 정보 -->
+				<div class="PrdInfo">
+					<div class="PrdInfoCon">
+						<div class="itemIcon"><span class="icon_area02 orange">충청북도</span></div>
+						<strong class="prdSubject">충주 지마이더스 펜션 30평</strong>
+						<!--<b class="price">210,000P~</b>-->
+					</div>
+					<div class="InfoSection">
+						<table cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<th class="address"><span>주소</span></th>
+									<td>충청북도 충주시 산척면 석천리 00길 123</td>
+								</tr>
+								<tr>
+									<th class="phone"><span>연락처</span></th>
+									<td>043-753-4562</td>
+								</tr>
+								<tr>
+									<th class="time"><span>체크인/아웃</span></th>
+									<td>15:00 / 11:00</td>
+								</tr>
+									<tr>
+										<th class="homepage"><span>홈페이지</span></th>
+										<td>
+											<!--웹페이지-->
+											<a class="home_web" href="http://google.com">http://google.com</a>
+											<!-- 모바일페이지-->
+											<a class="home_mobile" href="http://google.com" target="_blank">http://google.com</a>
+										</td>
+									</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- 상품 정보 END -->
+			</div>
+			<!-- 제품 썸네일, 정보 END -->
+
+			<!-- 예약 테이블 -->
+			<div class="ReservationTable">
+				<table cellpadding="0" cellspacing="0" class="tbl_res">
+					<thead>
+				<tr>
+					<!--<th class="name">객실명 / 평형</th>-->
+					<th class="type">객실 TYPE</th>
+					<th class="num">객실정원</th>
+				</tr>
+					</thead>
+					<tbody>
+						<!-- 리스트1 -->
+						<tr>
+						
+							<td style="background-color:white"><em>객실 TYPE</em>
+								<p>
+								더블
+								</p>
+							</td>
+							<td style="background-color:white"><em>객실정원</em>
+								<p>
+								2명
+								</p>
+							</td>
+						
+						</tr>
+						<!-- 리스트1 END -->
+						<!-- 리스트1 예약 상세 -->
+						<tr>
+						<td colspan="2" style="padding:0px"><!--class="res_booking_wrap">-->
+								<div id="order" class="res_booking">
+									<div class="res_detail">
+								
+										<div class="TableType01 reser_check_area">
+											<div class="category-check-box">
+												<strong>예약정보</strong>
+												<button type="button" class="btn_refresh"><span>날짜 재선택</span></button>
+											</div>
+											<div class="table-list">
+												<div class="calendar">
+													<div class="Date">
+														<a href="#" class="month_prev">&lt;</a>
+														<b>2019&nbsp;&nbsp;&middot;&nbsp;&nbsp;05</b>
+														<a href="#" class="month_next">&gt;</a>
+													</div>
+													<table cellpadding="0" cellspacing="0" class="calendar_table">
+														<thead>
+															<tr>
+																<th class="sun">Sun</th>
+																<th>Mon</th>
+																<th>Tue</th>
+																<th>Wed</th>
+																<th>Thu</th>
+																<th>Fri</th>
+																<th class="sat">Sat</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="sun none"></td>
+																<td ></td>
+																<td ></td>
+																<td class="rm_1st">
+																	<a href="#">01
+																	<p class="room_status">신청중(최초오픈)<br>
+																		<span>객실수</span> 12 <br>
+																		<span>신청인원</span> 30<br>
+																		<span>예상점수</span> 0
+																	</p>
+																</a></td>
+																<td class="rm_always">
+																	<a href="#">02
+																	<p class="room_status">신청중(상시신청중)<br>
+																		<span>객실수</span> 12 <br>
+																		<span>신청인원</span> 30<br>
+																		<span>예상점수</span> 0
+																	</p>
+																</a></td>
+																<td class="calendar_grey">
+																	<a href="#">03
+																	<p class="room_status">신청불가(오픈전)<br>
+																		<span>객실수</span> 16 <br>
+																		<!--<span>신청인원</span> 30<br>-->
+																		<span>예상점수</span> 0<br>
+																		<span>오픈일</span> 8/8
+																	</p>
+																</a></td>
+																<td class="sat calendar_grey" >
+																	<a href="#">04
+																		<p class="room_status">마감(신청종료)<br>
+																			<span>최초</span> 8객실 - 90점 <br>
+																			<span>상시</span> 5객실 - 80점<br>
+																			<!--<span>예상점수</span> 0-->
+																		</p>
+																	</a></td>
+															</tr>
+															<tr>
+																<td class="sun calendar_grey">
+																	<a href="#">05
+																		<p class="room_status">객실없음<br>
+																			<!--<span>객실수</span> 12 <br>
+																			<span>신청인원</span> 30<br>
+																			<span>예상점수</span> 0-->
+																		</p>
+																	</a></td>
+																<td class="calendar_grey">
+																	<a href="#">06
+																		<p class="room_status">객실 등록전<br>
+																		<!--	<span>객실수</span> 12 <br>
+																			<span>신청인원</span> 30<br>
+																			<span>예상점수</span> 0-->
+																		</p>
+																	</a></td>
+																<td ><a href="#">07</a></td>
+																<td ><a href="#">08</a></td>
+																<td ><a href="#">09</a></td>
+																<td ><a href="#">10</a></td>
+																<td class="sat none"><a href="#">11</a></td>
+															</tr>
+															<tr>
+																<td class="sun none"><a href="#">12</a></td>
+																<td ><a href="#">13</a></td>
+																<td ><a href="#">14</a></td>
+																<td ><a href="#">15</a></td>
+																<td ><a href="#">16</a></td>
+																<td ><a href="#">17</a></td>
+																<td class="sat none"><a href="#">18</a></td>
+															</tr>
+															<tr>
+																<td class="sun none"><a href="#">19</a></td>
+																<td ><a href="#">20</a></td>
+																<td ><a href="#">21</a></td>
+																<td ><a href="#">22</a></td>
+																<td ><a href="#">23</a></td>
+																<td ><a href="#">24</a></td>
+																<td class="sat"><a href="#">25</a></td>
+															</tr>
+															<tr>
+																<td class="sun"><a href="#">26</a></td>
+																<td class="on"><a href="#">27</a></td>
+																<td><a href="#">28</a></td>
+																<td><a href="#">29</a></td>
+																<td><a href="#">30</a></td>
+																<td><a href="#">31</a></td>
+																<td class="sat"></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="reser_note">
+													<ul>
+														<li>객실 수는 콘도사의 사정에 의해 변동될 수 있습니다.</li>
+														<li>객실 상태 표시 안내<br>
+															<div class="rm_1st">신청가능(최초 객실오픈)</div>
+															<div class="rm_always">신청가능(상시 신청중)</div>
+															<div class="calendar_grey">신청불가(오픈전)</div>
+															<div class="calendar_grey">마감(신청종료)</div>
+															<div class="calendar_grey">법인 객실 없음</div>
+															<div class="calendar_grey">객실 등록전</div>
+														</li>
+													</ul>
+												</div>
+												<div class="reser_form">
+													<table cellpadding="0" cellspacing="0">
+														<tbody>
+															<tr>
+																<th>체크인</th>
+																<td><input type="text" class="text" id="" name="" value="" readonly /></td>
+															</tr>
+															<tr>
+																<th>체크아웃</th>
+																<td><input type="text" class="text" id="" name="" value="" readonly /></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="payment_info_box">
+										<table cellpadding="0" cellspacing="0">
+											<thead>
+												<tr>
+													<th colspan="3">선택사항 확인</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th>숙박명</th>
+													<td>지마이더스 펜션</td>
+												</tr>
+												<tr>
+													<th>기간</th>
+													<td>2019-05-27 ~ 2019-05-28</td>
+												</tr>
+												<tr>
+													<th>객실유형</th>
+													<td>침실, 거실, 욕실, 월풀스파, 테라스</td>
+												</tr>
+											</tbody>
+											<!--<tfoot>
+												<tr>
+													<th>차감예상점수</th>
+													<td>5점</td>
+												</tr>
+											</tfoot>-->
+										</table>
+										<div class="payment-btnarea">
+										<!--	<p class="red">
+												기준인원 외 인원추가비는 현장에서 지불해야하며,<br />최대인원 초과 시 입실이 불가합니다.
+											</p>-->
+											<input type="button" class="button btn_orange w100" id="" name="" value="다음단계" onclick="location.href='reserve1.html'" />
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<!-- 리스트1 예약 상세 END -->
+
+					</tbody>
+				</table>
+			</div>
+			<!-- 예약 테이블 END -->
+
+
+
+
+		</div>
+	</div>
+</div>
+</div>
+
+
+				<div id="footer">
+					<div class="footerWrap">
+						<div class="f_util">
+							<ul>
+								<li><a href="/policy/agreement.php">이용약관</a></li>
+								<li><a href="/policy/privacy.php">개인정보처리방침</a></li>
+							</ul>
+						</div>
+						<!--		<h2><img src="images/common/logo_grey.png" alt="신한은행 연성소" /></h2>-->
+						<div class="footCon">
+
+							<h2><img src="images/common/logo_grey.png" alt="신한은행 연성소" /></h2>
+							<address>
+								06026 서울특별시 중구 세종대로 9일 20(태평로 2가) 대표이사 진옥동<br />
+								사업자등록번호 : 202-81-02637
+							</address>
+							<p class="copy">COPYRIGHT(C) SHINHAN BANK. ALL RIGHTS RESERVED</p>
+						</div>
+
+						<!--	<h2><img src="images/common/logo_bizmarket.png" alt="인터파크 비즈마켓" /></h2>-->
+						<div class="footCon">
+
+							<h2><img src="images/common/logo_bizmarket.png" alt="인터파크비즈마켓" /></h2>
+							<address>
+								06026 서울특별시 강남구 도산대로 235 평화빌딩 5 대표이사 허탁<br />
+								사업자 등록번호 : 214-88-80576. E-Mail : bizmarket@interpark.com<br>개인정보 책임자 : 김보성
+							</address>
+							<p class="copy">COPYRIGHT(C) Interpark Bizmarket Co.,Ltd. ALL RIGHTS RESERVED<br>
+								본 신한은행 법인콘도 신청몰은 <strong>(주)인터파크비즈마켓</strong>이 운영대행하고 있습니다.
+							</p>
+						</div>
+						<a href="javascript:gotop();" class="btn_top">TOP</a>
+					</div>
+				</div>
+				<!-- footer -->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

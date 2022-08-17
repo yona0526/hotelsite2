@@ -1,0 +1,291 @@
+<!--헤더영역 시작-->
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="subject" content="신한은행 연성소" />
+	<meta name="title" content="신한은행 연성소" />
+	<meta name="author" content="신한은행 연성소" />
+	<meta name="publisher" content="(주)지마이다스, G-midas" />
+	<meta name="description" content="신한은행 연성소" />
+	<meta name="location" content="" />
+	<title>신한은행 연성소</title>
+	<!-- 오픈그래프 -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="신한은행 연성소">
+	<meta property="og:description" content="신한은행 연성소">
+	<meta property="og:image" content="images/common/kakao.jpg">
+	<link rel="shortcut icon" href="">
+	<link type="text/css" href="/common/css/basic.css" rel="stylesheet" />
+	<link type="text/css" href="/common/css/layout.css" rel="stylesheet" />
+	<link href="/common/css/media_tablet.css" type="text/css" media="screen and (max-width:1024px)" rel="stylesheet" />
+	<link href="/common/css/media_mobile.css" type="text/css" media="screen and (max-width:520px)" rel="stylesheet" />
+	<link rel="stylesheet" href="/common/css/swiper.css">
+	<link type="text/css" href="//common/css/slick.css" rel="stylesheet" />
+	<link type="text/css" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" rel="stylesheet" />
+	<!-- calendar -->
+	<script type="text/javascript" src="/common/js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/common/js/swiper.min.js"></script>
+	<script type="text/javascript" src="/common/js/slick.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<!-- 추가 : 김연아 -->
+	<script src="https://kit.fontawesome.com/33f6ca1ff9.js"></script>
+</head>
+	<div id="wrap">
+		<div class="overlay"></div>
+		<div class="overlay02"></div>
+		<div class="overlay03"></div>
+		<script>
+			$(document).ready(function () {
+
+				$('.main_nav li').click(function () {
+					$(this).children('.sub_nav').slideToggle();
+				})
+
+			});
+
+		</script>
+		<div id="header">
+			<div class="headerWrap">
+				<a href="javascript:void(0);" class="btn_menu"><img src="/images/common/btn/btn_menu.png" alt="메뉴열기" /></a>
+				<h1 class="logo">
+					<a href="/index.html"><img src="/images/common/logo.png" alt="신한은행 연성소" class="logo_b" style="width:198px" /><img
+						 src="/images/common/logo.png" alt="신한은행 연성소" class="logo_s" /></a>
+				</h1>
+				<div class="UtilWrap">
+					<div class="mem_profile">
+						<p><span class="blue">홍길동</span>님 환영합니다.</p>
+						<p>현재 보유점수 : <span class="red">95</span>점</p>
+					</div>
+					<!-- 검색영역 pc -->
+					<div class="SearchArea pc">
+						<input type="text" class="text" id="" name="" value="" placeholder="검색어를 입력하세요." />
+						<input type="button" class="button btn_search" id="topSerBtn" name="topSerBtn" value="검색" onclick="location.href='/product/search_result.php'" />
+						<a href="javascript:ViewSearchClose();" class="btn_search_close">닫기</a>
+					</div>
+					<!-- 검색영역 tablet, mobile -->
+					<div class="SearchArea tabmob">
+						<input type="text" class="text" id="" name="" value="" placeholder="검색어를 입력하세요." />
+						<input type="button" class="button btn_search" id="topSerBtn" name="topSerBtn" value="검색" onclick="location.href='/product/search_result.php'" />
+						<a href="javascript:ViewSearchClose();" class="btn_search_close">닫기</a>
+					</div>
+					<div class="top_util">
+						<ul class="pc">
+
+							<li class="myinfo"><a href="//mypage/myinfo.php">내정보</a></li>
+							<li class="logout"><a href="#">로그아웃</a></li>
+						</ul>
+						<ul class="tabmo">
+							<li><a href="javascript:ViewSearch();"><img src="/images/common/btn/btn_search_m.png" alt="" /></a></li>
+							<li><a href="#"><img src="/images/common/btn/btn_cart.png" alt="" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Menu">
+			<div class="menu_util">
+				<ul>
+					<li><a href="/mypage/myinfo.php"><img src="/images/common/icon/icon_mem_m.png" alt="" /> 내정보</a></li>
+					<li><a href="#"><img src="/images/common/icon/icon_logout_m.png" alt="" /> 로그아웃</a></li>
+				</ul>
+			</div>
+			<div class="mem_profile">
+				<p><span class="blue">관리자(master123)</span>님 <br />환영합니다.</p>
+				<p>POINT : <span class="red">1,000,000</span>P</p>
+			</div>
+			<div class="menuWrap">
+				<ul class="main_nav">
+	
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">예약조회/취소</a></li>
+					<li><a href="#">액티비티</a></li>
+					<li><a href="#">이용안내/규정</a></li>
+					<li><a href="#">보유점수</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
+			<a href="#" class="btn_menu_close">닫기</a>
+		</div>
+		<div id="container">
+			<div id="contents">
+				<script type="text/javascript" src="/common/js/main.js"></script>
+				<div class="mainConWrap">
+
+					<script type="text/javascript" src="/common/js/jquery-ui.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							$("#checkin, #checkout").datepicker({
+								changeMonth: true,
+								dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
+								dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+								changeYear: true,
+								showOn: 'both',
+								buttonImage: '/images/common/icon/icon_calendar.png',
+								buttonImageOnly: true,
+								nextText: '다음 달',
+								prevText: '이전 달',
+								monthNamesShort: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+								monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+								dateFormat: 'yy-mm-dd'
+							});
+
+
+							$('.prdSearchArea .select_facility .selectType01').click(function () {
+								if (!$(this).hasClass('on')) {
+									$(this).addClass('on');
+									$('.prdSearchArea .checkArea').slideDown(300);
+								} else {
+									$(this).removeClass('on');
+									$('.prdSearchArea .checkArea').slideUp(300);
+								}
+							})
+						});
+					</script>
+					<div class="prdSearchArea">
+						<span>콘도맞춤검색</span>
+						<select name="" id="" class="category selectType01">
+							<option value="">숙박유형</option>
+							<option value="">숙박유형1</option>
+							<option value="">숙박유형2</option>
+							<option value="">숙박유형3</option>
+							<option value="">숙박유형4</option>
+							<option value="">숙박유형5</option>
+						</select>
+						<select name="" id="" class="area selectType01">
+							<option value="">지역</option>
+							<option value="">서울</option>
+							<option value="">경기도</option>
+							<option value="">강원도</option>
+							<option value="">충청도</option>
+							<option value="">충청북도</option>
+						</select>
+						<div class="dateWrap ch_in">
+							<input type="text" class="text" id="checkin" name="checkin" value="" placeholder="체크인" readonly />
+						</div>
+						<input type="button" class="button btn_search" id="" name="" value="검색" />	
+                    </div>
+                    
+<!--헤더영역 끝-->
+
+
+
+
+
+<!--액티비티 시작-->
+
+<style>
+	h6 {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
+		/* background: transparent; */
+	}
+
+	/* 서브메뉴 */
+	#FNB {margin-bottom:40px;}
+	#FNB ul {/*border-bottom:1px solid #e5e5e5;*/}
+	#FNB ul:after {content:""; display:block; clear:both; font-size:0; line-height:0; width:0; height:0; visibility:hidden;}
+	#FNB ul li {float:left; width:130px; height:40px; background:#f8f8f8; border:1px solid #e5e5e5; border-bottom:none; font-size:13px;; text-align:center; line-height:40px; box-sizing:border-box; border-bottom:1px solid #e5e5e5;}
+	#FNB ul li:hover{background:#222; padding-bottom:1px; color:#fff;}
+	#FNB ul li a {display:block; font-weight:600;}
+	#FNB ul li.on {/*border-color:#222;*/}
+	#FNB ul li.on a {background:#222; padding-bottom:1px; color:#fff;}
+
+
+	ul.tabs{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+	ul.tabs li{
+		float:left; width:130px; height:43px; background:#f8f8f8; border:1px solid #e5e5e5; border-bottom:none; font-size:13px;; text-align:center; line-height:40px; box-sizing:border-box; border-bottom:1px solid #e5e5e5;
+	}
+	ul.tabs li.current{
+		background: #222;
+		color: #fff;
+	}
+	.tab-content{
+		display: none;
+		background: #fff;
+		border:1px solid #ededed;	
+		padding: 15px;
+	}
+	.tab-content img{
+		width:1460px;
+		padding-top: 20px;
+	}
+	.tab-content.current{
+		display: inherit;
+		padding-top: 30px;
+	}
+</style>
+
+
+<script>
+	$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script>
+
+
+
+<div class="contentsWrap">
+	<!--<div id="SNB">
+		<ul>
+			<li><a href="/mypage/myreser_list.html">예약조회/취소</a></li>
+			<li class="on"><a href="/mypage/benefit.html">혜택할인</a></li>
+			<li><a href="/mypage/guide.html">이용안내/규정</a></li>
+			<li><a href="/mypage/mypoint_list.html">보유점수</a></li>
+			<li><a href="/mypage/notice_list.html">공지사항</a></li>
+			<li><a href="/mypage/faq.html">FAQ</a></li>
+		</ul>
+	</div>-->
+	<div id="Member" class="contentsArea mypoint">
+		<div class="TitleArea">
+			<h3>혜택할인</h3>
+		</div>
+
+		<div>
+			<ul class="tabs">
+				<li class="tab-link current" data-tab="tab-1">항공사</li>
+				<li class="tab-link" data-tab="tab-2">투어&액티비티</li>
+				<li class="tab-link" data-tab="tab-3">골프</li>
+				<li class="tab-link" data-tab="tab-4">렌트카</li>
+				<li class="tab-link" data-tab="tab-5">공항택시</li>
+			</ul>
+		
+			<div id="tab-1" class="tab-content current"><img src="/images/board/air.jpg"></div>
+			<div id="tab-2" class="tab-content"><img src="/images/board/center.jpg"></div>
+			<div id="tab-3" class="tab-content"><img src="/images/board/golf.jpg"></div>
+			<div id="tab-4" class="tab-content"><img src="/images/board/rent.jpg"></div>
+			<div id="tab-5" class="tab-content"><img src="/images/board/taxi.jpg"></div>
+		</div>
+	</div>	
+
+	<div>
+</div>
+<!--액티비티 끝-->
+
+
+
+<!--footer 시작-->		
+<!--footer 끝-->

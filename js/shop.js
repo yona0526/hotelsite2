@@ -23,23 +23,23 @@ $(document).ready(function(){
 	});
 
 
-	//객실 미리보기 썸네일
-	$('.room-preview-top .swiper-wrapper').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		fade: true,
-		infinite: false,
-		asNavFor: '.room-preview-thumbs .swiper-wrapper'
-	});
-	$('.room-preview-thumbs .swiper-wrapper').slick({
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		infinite: false,
-		asNavFor: '.room-preview-top .swiper-wrapper',
-		dots: false,
-		focusOnSelect: true
-	});
+	// //객실 미리보기 썸네일
+	// $('.room-preview-top .swiper-wrapper').slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	arrows: false,
+	// 	fade: true,
+	// 	infinite: false,
+	// 	asNavFor: '.room-preview-thumbs .swiper-wrapper'
+	// });
+	// $('.room-preview-thumbs .swiper-wrapper').slick({
+	// 	slidesToShow: 5,
+	// 	slidesToScroll: 1,
+	// 	infinite: false,
+	// 	asNavFor: '.room-preview-top .swiper-wrapper',
+	// 	dots: false,
+	// 	focusOnSelect: true
+	// });
 
 
 	//selectbox placeholder

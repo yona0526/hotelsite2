@@ -2,7 +2,7 @@
 //Shop Detail
 $(document).ready(function(){
 	//제품 미리보기 썸네일
-	$(document).imagesLoaded(function(){
+
 		var galleryThumbs = new Swiper('.gallery-thumbs', {
 			spaceBetween: '1.2%',
 			slidesPerView: 5,
@@ -19,7 +19,7 @@ $(document).ready(function(){
 			thumbs: {
 				swiper: galleryThumbs
 			}
-		});
+
 	});
 
 

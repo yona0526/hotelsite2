@@ -15050,16 +15050,16 @@ var widgetsSlider = $.widget( "ui.slider", $.ui.mouse, {
 				valPercent = ( that.values( i ) - that._valueMin() ) / ( that._valueMax() -
 					that._valueMin() ) * 100;
 				_set[ that.orientation === "horizontal" ? "left" : "bottom" ] = valPercent + "%";
-				$( this ).stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( _set, o.animate );
+				$( this ).stop( 1, 1 )[ animate ? "animate" : "css" ]( _set, o.animate );
 				if ( that.options.range === true ) {
 					if ( that.orientation === "horizontal" ) {
 						if ( i === 0 ) {
-							that.range.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( {
+							that.range.stop( 1, 1 )[ animate ? "animate" : "css" ]( {
 								left: valPercent + "%"
 							}, o.animate );
 						}
 						if ( i === 1 ) {
-							that.range[ animate ? "animate" : /shinhan/css" ]( {
+							that.range[ animate ? "animate" : "css" ]( {
 								width: ( valPercent - lastValPercent ) + "%"
 							}, {
 								queue: false,
@@ -15068,12 +15068,12 @@ var widgetsSlider = $.widget( "ui.slider", $.ui.mouse, {
 						}
 					} else {
 						if ( i === 0 ) {
-							that.range.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( {
+							that.range.stop( 1, 1 )[ animate ? "animate" : "css" ]( {
 								bottom: ( valPercent ) + "%"
 							}, o.animate );
 						}
 						if ( i === 1 ) {
-							that.range[ animate ? "animate" : /shinhan/css" ]( {
+							that.range[ animate ? "animate" : "css" ]( {
 								height: ( valPercent - lastValPercent ) + "%"
 							}, {
 								queue: false,
@@ -15092,25 +15092,25 @@ var widgetsSlider = $.widget( "ui.slider", $.ui.mouse, {
 					( value - valueMin ) / ( valueMax - valueMin ) * 100 :
 					0;
 			_set[ this.orientation === "horizontal" ? "left" : "bottom" ] = valPercent + "%";
-			this.handle.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( _set, o.animate );
+			this.handle.stop( 1, 1 )[ animate ? "animate" : "css" ]( _set, o.animate );
 
 			if ( oRange === "min" && this.orientation === "horizontal" ) {
-				this.range.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( {
+				this.range.stop( 1, 1 )[ animate ? "animate" : "css" ]( {
 					width: valPercent + "%"
 				}, o.animate );
 			}
 			if ( oRange === "max" && this.orientation === "horizontal" ) {
-				this.range.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( {
+				this.range.stop( 1, 1 )[ animate ? "animate" : "css" ]( {
 					width: ( 100 - valPercent ) + "%"
 				}, o.animate );
 			}
 			if ( oRange === "min" && this.orientation === "vertical" ) {
-				this.range.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( {
+				this.range.stop( 1, 1 )[ animate ? "animate" : "css" ]( {
 					height: valPercent + "%"
 				}, o.animate );
 			}
 			if ( oRange === "max" && this.orientation === "vertical" ) {
-				this.range.stop( 1, 1 )[ animate ? "animate" : /shinhan/css" ]( {
+				this.range.stop( 1, 1 )[ animate ? "animate" : "css" ]( {
 					height: ( 100 - valPercent ) + "%"
 				}, o.animate );
 			}
